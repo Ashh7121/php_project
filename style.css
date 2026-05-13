@@ -1,0 +1,60 @@
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background: #1f1f1f;
+    border-bottom: 2px solid #bb86fc;
+}
+
+.container { padding: 2rem; }
+
+.auth-form, .add-box {
+    background: #1f1f1f;
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 2rem auto;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background: #2c2c2c;
+    border: 1px solid #444;
+    color: white;
+    border-radius: 4px;
+}
+
+button {
+    background: #bb86fc;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #1f1f1f;
+    padding: 1rem;
+    border-radius: 8px;
+    border-left: 4px solid #03dac6;
+}
+
+.del-btn { color: #cf6679; text-decoration: none; font-size: 0.8rem; }
