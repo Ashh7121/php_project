@@ -32,6 +32,9 @@ $stmt = $albumObj->read($_SESSION['user_id']);
     <nav>
         <h1>My Vinyl Collection</h1>
         <a href="logout.php">Logout</a>
+        <h1>Music App</h1>
+    <a href="view_list.php">View My Collection</a>
+    <a href="logout.php">Logout</a>
     </nav>
     
     <div class="container">
